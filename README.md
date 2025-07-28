@@ -1,3 +1,16 @@
+
+## Running the project
+
+1. Clone the repository
+`git clone https://github.com/yaaashhh725/Crypto_Trading_Bot.git`
+
+2. Add your API keys
+ - Get your API keys from  ` https://testnet.binancefuture.com/en/futures/BTCUSDT`
+ - Create a file named .env
+ - Add the API_key and Secret_Key to the file
+
+3. Follow the below steps to run.
+
 To open helpdesk
 ```bash
 uv run main.py -h
