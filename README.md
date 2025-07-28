@@ -9,7 +9,12 @@
  - Create a file named .env
  - Add the API_key and Secret_Key to the file
 
-3. Follow the below steps to run.
+3. Install dependencies
+```bash
+uv sync
+```
+
+4. Follow the below steps to run.
 
 To open helpdesk
 ```bash
