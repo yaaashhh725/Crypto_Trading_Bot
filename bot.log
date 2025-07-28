@@ -1,0 +1,43 @@
+2025-07-28 09:23:00,198 - INFO - CLI arguments received: Namespace(order_type='market', symbol='ethsdt', side='buy', quantity=0.01)
+2025-07-28 09:23:00,198 - INFO - Starting market order execution
+2025-07-28 09:23:00,438 - INFO - Initialized Binance client
+2025-07-28 09:23:00,439 - INFO - MarketOrders initialized
+2025-07-28 09:23:00,671 - INFO - Successfully retrieved futures account information
+2025-07-28 09:23:00,693 - INFO - Validating symbol: ETHSDT
+2025-07-28 09:23:01,037 - ERROR - Invalid symbol: ethsdt. It does not exist on Binance Futures.
+2025-07-28 09:23:01,040 - ERROR - Order placement failed. See logs for details.
+2025-07-28 09:25:16,607 - INFO - CLI arguments received: Namespace(order_type='market', symbol='ETHUSDT', side='buy', quantity=0.01)
+2025-07-28 09:25:16,610 - INFO - Starting market order execution
+2025-07-28 09:25:16,854 - INFO - Initialized Binance client
+2025-07-28 09:25:16,854 - INFO - MarketOrders initialized
+2025-07-28 09:25:16,855 - INFO - Validating symbol: ETHUSDT
+2025-07-28 09:25:17,108 - INFO - Symbol ETHUSDT is valid and tradable.
+2025-07-28 09:25:17,263 - INFO - Futures market buy order placed for ETHUSDT with quantity 0.01
+2025-07-28 09:25:17,264 - INFO - Order details: {'orderId': 4934192425, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ6c91b52af09c82c15e2e2f', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753674917508}
+2025-07-28 09:25:17,268 - INFO - Successfully placed market buy order: {'orderId': 4934192425, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ6c91b52af09c82c15e2e2f', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753674917508}
+2025-07-28 09:26:01,278 - INFO - CLI arguments received: Namespace(order_type='market', symbol='ETHUSDT', side='sell', quantity=0.01)
+2025-07-28 09:26:01,279 - INFO - Starting market order execution
+2025-07-28 09:26:01,490 - INFO - Initialized Binance client
+2025-07-28 09:26:01,490 - INFO - MarketOrders initialized
+2025-07-28 09:26:01,491 - INFO - Validating symbol: ETHUSDT
+2025-07-28 09:26:01,836 - INFO - Symbol ETHUSDT is valid and tradable.
+2025-07-28 09:26:01,999 - INFO - Futures market sell order placed for ETHUSDT with quantity 0.01
+2025-07-28 09:26:01,999 - INFO - Order details: {'orderId': 4934193304, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJf7018cd3e09a77452103c6', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753674962234}
+2025-07-28 09:26:02,003 - INFO - Successfully placed market sell order: {'orderId': 4934193304, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJf7018cd3e09a77452103c6', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753674962234}
+2025-07-28 09:27:01,900 - INFO - CLI arguments received: Namespace(order_type='limit', symbol='ETHUSDT', side='sell', quantity=0.01, price=2500.0)
+2025-07-28 09:27:01,901 - INFO - Starting limit order execution
+2025-07-28 09:27:02,165 - INFO - Initialized Binance client
+2025-07-28 09:27:02,166 - INFO - LimitOrders initialized
+2025-07-28 09:27:02,167 - INFO - Validating symbol: ETHUSDT
+2025-07-28 09:27:02,394 - INFO - Symbol ETHUSDT is valid and tradable.
+2025-07-28 09:27:02,551 - ERROR - Error placing limit sell order: APIError(code=-4024): Limit price can't be lower than 3486.70.
+2025-07-28 09:27:02,552 - ERROR - Order placement failed. See logs for details.
+2025-07-28 09:27:54,923 - INFO - CLI arguments received: Namespace(order_type='limit', symbol='ETHUSDT', side='buy', quantity=0.01, price=2500.0)
+2025-07-28 09:27:54,924 - INFO - Starting limit order execution
+2025-07-28 09:27:55,110 - INFO - Initialized Binance client
+2025-07-28 09:27:55,110 - INFO - LimitOrders initialized
+2025-07-28 09:27:55,111 - INFO - Validating symbol: ETHUSDT
+2025-07-28 09:27:55,482 - INFO - Symbol ETHUSDT is valid and tradable.
+2025-07-28 09:27:55,628 - INFO - Futures limit buy order placed for ETHUSDT with quantity 0.01 at price 2500.0
+2025-07-28 09:27:55,629 - INFO - Order details: {'orderId': 4934195499, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ9d2e9a1636613dfa2f474', 'price': '2500.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753675075882}
+2025-07-28 09:27:55,633 - INFO - Successfully placed limit buy order: {'orderId': 4934195499, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ9d2e9a1636613dfa2f474', 'price': '2500.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1753675075882}
